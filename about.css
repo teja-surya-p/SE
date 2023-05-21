@@ -1,0 +1,183 @@
+body {
+    margin: 0 0 1vw 0;
+    font-size: 15px;
+}
+
+.wrapper{
+    width: 1170px;
+    margin:auto;
+  }
+  
+  .navigation{
+    padding-left: 800px;
+    list-style:none;
+    margin-top: 20px;
+  
+  }
+  
+  .navigation li{
+    display: inline-block;
+  }
+  
+  .navigation li a{
+      color: black;
+      text-decoration: none;
+      padding: 5px 20px;
+      font-family: poppins;
+      font-size: 16px;
+  }
+  
+  .navigation li a:hover{
+    background: #fff;
+    color: #333;
+  }
+
+#top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#photo {
+    align-self: center;
+}
+
+#photo1 {
+    width: 320px;
+    border: 1.5px solid white;
+}
+
+#photo1:hover {
+    filter: brightness(2);
+    transition: all 1s ease-in-out 0s;
+}
+
+#heading {
+    padding: 3vw;
+}
+
+#heading1 {
+    font-size: 3em;
+    font-weight: 700;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    margin: 0;
+}
+
+#heading2 {
+    font-size: 1.2em;
+    font-weight: 100;
+    font-family: Montserrat;
+    text-align: center;
+    margin: 0%;
+    opacity: 0.9;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.nav-item {
+    animation: show 0.5s ease-in-out forwards;
+    transition: all 0.3s ease-in-out;
+    border-radius: 100%;
+    border: groove 2px white;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+    opacity: 0.8;
+}
+
+.nav-item a:hover {
+    opacity: 0.5;
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-item a {
+    font-size: 28px;
+}
+
+#bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 2vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#about {
+    margin: 3vw 5vw 5vw 0;
+    width: 55vw;
+    text-align: center;
+}
+
+#h_about {
+    font-family: Montserrat;
+    font-style: Bold;
+    font-size: 1.5em;
+    text-align: left;
+    line-height: 29px;
+    color:rgb(0, 0, 0);
+}
+
+#p_about {
+    color: #666666;
+    Font-Family: Raleway;
+    Font-Style: Regular;
+    text-align: justify;
+    Line-Height: 1.7em;
+}
+
+#button {
+    margin: 1vw;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    Font-Family: Raleway;
+}
+
+#button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease 0s;
+}
+
+#details {
+    color: #666666;
+    Font-Family: Raleway;
+    Font-Style: Regular;
+    Line-Height: 19px;
+    text-Align: Left;
+}
+
+.table {
+    padding: 0.5vw;
+}

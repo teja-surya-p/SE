@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+  }
+
+
+  body{
+    background: url("https://images.pexels.com/photos/672597/pexels-photo-672597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    height: 100vh;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+  }
+
+  h1{
+    text-align:center;
+    padding-bottom: 280px;
+    
+    
+  }
+
+  .output{
+      text-align: center;
+      
+  }
+.res{
+    position: relative;
+    left: 890px;
+}
+
+  .heading{
+      font-weight: bolder;
+      font-size: 35px;
+      left: 120px;
+      text-align: center;
+      color: rgb(184, 175, 184);
+  }
+  
+  .rectangle{
+      font-size: small;
+      
+  }
